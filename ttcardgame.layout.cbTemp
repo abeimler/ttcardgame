@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Linux Release" />
+	<File name="src/Data/Card.cpp" open="1" top="0" tabpos="15">
+		<Cursor position="2451" topLine="58" />
+	</File>
+	<File name="src/Data/Card.hpp" open="1" top="0" tabpos="14">
+		<Cursor position="273" topLine="0" />
+	</File>
+	<File name="src/Game/GameCard.cpp" open="1" top="0" tabpos="17">
+		<Cursor position="1586" topLine="34" />
+	</File>
+	<File name="src/Game/GameCard.hpp" open="1" top="0" tabpos="16">
+		<Cursor position="351" topLine="0" />
+	</File>
+	<File name="src/Game/GameField.cpp" open="1" top="0" tabpos="25">
+		<Cursor position="4461" topLine="141" />
+	</File>
+	<File name="src/Game/GameField.hpp" open="1" top="0" tabpos="24">
+		<Cursor position="1909" topLine="74" />
+	</File>
+	<File name="src/Game/GameField_rules.cpp" open="1" top="0" tabpos="30">
+		<Cursor position="9278" topLine="236" />
+	</File>
+	<File name="src/Game/GameHand.cpp" open="1" top="0" tabpos="23">
+		<Cursor position="326" topLine="0" />
+	</File>
+	<File name="src/Game/GameHand.hpp" open="1" top="0" tabpos="22">
+		<Cursor position="235" topLine="0" />
+	</File>
+	<File name="src/GameBasic.cpp" open="1" top="0" tabpos="9">
+		<Cursor position="1909" topLine="21" />
+	</File>
+	<File name="src/GameBasic.h" open="1" top="0" tabpos="5">
+		<Cursor position="357" topLine="0" />
+	</File>
+	<File name="src/GameStates.cpp" open="1" top="0" tabpos="11">
+		<Cursor position="923" topLine="10" />
+	</File>
+	<File name="src/GameStates.hpp" open="1" top="0" tabpos="13">
+		<Cursor position="90" topLine="0" />
+	</File>
+	<File name="src/Interface/Platte.cpp" open="1" top="0" tabpos="10">
+		<Cursor position="1678" topLine="29" />
+	</File>
+	<File name="src/Interface/Platte.hpp" open="1" top="0" tabpos="2">
+		<Cursor position="4475" topLine="99" />
+	</File>
+	<File name="src/Interface/SelectFont.cpp" open="1" top="0" tabpos="8">
+		<Cursor position="6880" topLine="164" />
+	</File>
+	<File name="src/Interface/SelectFont.hpp" open="1" top="0" tabpos="3">
+		<Cursor position="2397" topLine="76" />
+	</File>
+	<File name="src/Interface/SelectObject.cpp" open="1" top="0" tabpos="21">
+		<Cursor position="615" topLine="0" />
+	</File>
+	<File name="src/Interface/SelectObject.hpp" open="1" top="0" tabpos="4">
+		<Cursor position="162" topLine="0" />
+	</File>
+	<File name="src/Scene/GamePlay.cpp" open="1" top="1" tabpos="27">
+		<Cursor position="7954" topLine="169" />
+	</File>
+	<File name="src/Scene/GamePlay.hpp" open="1" top="0" tabpos="26">
+		<Cursor position="354" topLine="0" />
+	</File>
+	<File name="src/Scene/MainTitle.cpp" open="1" top="0" tabpos="12">
+		<Cursor position="667" topLine="0" />
+	</File>
+	<File name="src/Scene/MainTitle.hpp" open="1" top="0" tabpos="1">
+		<Cursor position="285" topLine="0" />
+	</File>
+	<File name="src/basic.cpp" open="1" top="0" tabpos="28">
+		<Cursor position="660" topLine="22" />
+	</File>
+	<File name="src/basic.h" open="1" top="0" tabpos="6">
+		<Cursor position="471" topLine="59" />
+	</File>
+	<File name="src/main.cpp" open="1" top="0" tabpos="29">
+		<Cursor position="459" topLine="16" />
+	</File>
+	<File name="src/tinystr.cpp" open="1" top="0" tabpos="20">
+		<Cursor position="1671" topLine="47" />
+	</File>
+	<File name="src/tinystr.h" open="1" top="0" tabpos="19">
+		<Cursor position="3250" topLine="106" />
+	</File>
+	<File name="src/tinyxml.cpp" open="1" top="0" tabpos="18">
+		<Cursor position="18805" topLine="929" />
+	</File>
+	<File name="src/tinyxml.h" open="1" top="0" tabpos="7">
+		<Cursor position="2848" topLine="79" />
+	</File>
+</CodeBlocks_layout_file>

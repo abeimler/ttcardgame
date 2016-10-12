@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE dataCard SYSTEM "dataCard.dtd">
+
+<dataCard>
+
+<Card>
+	<monster name="Caterkiller" 
+		 filename="Caterkiller.png"/>
+
+	<lvl value="1"/>
+	
+	<values value="6 2 1 1"/>
+</Card>
+
+<Card>
+	<monster name="Batbrain" 
+		 filename="Batbrain.png"/>
+
+	<lvl value="1"/>
+	
+	<values value="10 10 2 10"/>
+</Card>
+
+<Card>
+	<monster name="Burrobot" 
+		 filename="Burrobot.png"/>
+
+	<lvl value="1"/>
+	
+	<values value="2 3 3 5"/>
+</Card>
+
+<Card>
+	<monster name="Buzz Bomber" 
+		 filename="Buzz Bomber.png"/>
+
+	<lvl value="1"/>
+	
+	<values value="1 4 3 4"/>
+</Card>
+
+<Card>
+	<monster name="Mottobug" 
+		 filename="Motobug.png"/>
+
+	<lvl value="1"/>
+	
+	<values value="2 2 4 5"/>
+</Card>
+
+<Card>
+	<monster name="Jaws" 
+		 filename="Jaws.png"/>
+
+	<lvl value="1"/>
+	
+	<values value="3 1 3 4"/>
+</Card>
+
+<Card>
+	<monster name="Crabmeat" 
+		 filename="Crabmeat.png"/>
+
+	<lvl value="1"/>
+	
+	<values value="4 4 1 1"/>
+</Card>
+
+<Card>
+	<monster name="Orbinaut" 
+		 filename="Orbinaut.png"/>
+
+	<lvl value="1"/>
+	<element value="Fire"/>
+	
+	<values value="2 3 2 3"/>
+</Card>
+
+<Card>
+	<monster name="Chopper" 
+		 filename="Chopper.png"/>
+
+	<lvl value="1"/>
+	
+	<values value="2 6 3 1"/>
+</Card>
+
+</dataCard>

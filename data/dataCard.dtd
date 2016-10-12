@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<!ELEMENT monster						EMPTY>
+<!ATTLIST   monster name 	CDATA #IMPLIED>
+<!ATTLIST   monster filename 	CDATA #IMPLIED>
+
+<!ELEMENT lvl		EMPTY>
+<!ATTLIST   lvl value 		CDATA #IMPLIED>
+
+<!ELEMENT element		EMPTY>
+<!ATTLIST   element value 		CDATA #IMPLIED>
+
+<!ELEMENT values  	EMPTY>
+<!ATTLIST values value NMTOKENS  #IMPLIED>
+
+<!ELEMENT Card (monster,lvl,values,element?)>
+<!ELEMENT dataCard (Card+)>

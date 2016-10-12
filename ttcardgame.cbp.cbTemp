@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="ttcardgame" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Win32 Debug">
+				<Option platforms="Windows;" />
+				<Option output="bin/Debug/win32/ttcardgame" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/win32" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-D_DEBUG" />
+					<Add directory="./include" />
+					<Add directory="./src" />
+				</Compiler>
+				<Linker>
+					<Add library="Fantasy2C" />
+					<Add directory="./lib" />
+				</Linker>
+			</Target>
+			<Target title="Win32 Release">
+				<Option platforms="Windows;" />
+				<Option output="bin/Release/win32/ttcardgame" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/win32" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="./include" />
+					<Add directory="./src" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="Fantasy2C" />
+					<Add directory="./lib" />
+				</Linker>
+			</Target>
+			<Target title="Linux Debug">
+				<Option platforms="Unix;" />
+				<Option output="bin/Debug/linux/ttcardgame" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/linux" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-D_DEBUG" />
+					<Add directory="./include" />
+					<Add directory="./src" />
+				</Compiler>
+				<Linker>
+					<Add library="Fantasy2C" />
+				</Linker>
+			</Target>
+			<Target title="Linux Release">
+				<Option platforms="Unix;" />
+				<Option output="bin/Release/linux/ttcardgame" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/linux" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="./include" />
+					<Add directory="./src" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="Fantasy2C" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="src/Data/Card.cpp" />
+		<Unit filename="src/Data/Card.hpp" />
+		<Unit filename="src/Game/GameCard.cpp" />
+		<Unit filename="src/Game/GameCard.hpp" />
+		<Unit filename="src/Game/GameField.cpp" />
+		<Unit filename="src/Game/GameField.hpp" />
+		<Unit filename="src/Game/GameHand.cpp" />
+		<Unit filename="src/Game/GameHand.hpp" />
+		<Unit filename="src/GameBasic.cpp" />
+		<Unit filename="src/GameBasic.h" />
+		<Unit filename="src/GameStates.cpp" />
+		<Unit filename="src/GameStates.hpp" />
+		<Unit filename="src/Interface/Platte.cpp" />
+		<Unit filename="src/Interface/Platte.hpp" />
+		<Unit filename="src/Interface/SelectFont.cpp" />
+		<Unit filename="src/Interface/SelectFont.hpp" />
+		<Unit filename="src/Interface/SelectObject.cpp" />
+		<Unit filename="src/Interface/SelectObject.hpp" />
+		<Unit filename="src/Scene/GamePlay.cpp" />
+		<Unit filename="src/Scene/GamePlay.hpp" />
+		<Unit filename="src/Scene/MainTitle.cpp" />
+		<Unit filename="src/Scene/MainTitle.hpp" />
+		<Unit filename="src/basic.cpp" />
+		<Unit filename="src/basic.h" />
+		<Unit filename="src/main.cpp" />
+		<Unit filename="src/tinystr.cpp" />
+		<Unit filename="src/tinystr.h" />
+		<Unit filename="src/tinyxml.cpp" />
+		<Unit filename="src/tinyxml.h" />
+		<Unit filename="src/tinyxmlerror.cpp" />
+		<Unit filename="src/tinyxmlparser.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
